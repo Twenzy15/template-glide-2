@@ -1,0 +1,114 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.topo{
+  background-color: #7825E6;
+  height: 7vh;
+}
+.topo a{
+  color: white;
+  text-decoration: none;
+}
+.topo a:hover{
+  color: white;
+}
+.topo h4{
+  line-height: 60px;
+}
+.main{
+  background-image: url(/img/fundo.webp);
+  background-size: cover;
+  height: 70vh;
+}
+.main h1{
+  color: white;
+  margin-top: 250px;
+  font-size: 5rem;
+  font-weight: bold;
+}
+.main p{
+  color: white;
+  font-size: 1.2rem;
+}
+
+.main-btn{
+  padding: 10px 20px;
+  border-radius: 7px;
+  border: none;
+  color: white;
+  background-color: #7825E6;
+  font-weight: bold;
+  transition: all ease 0.5s;
+}
+.main-btn:hover{
+  background-color: #7925e6c0;
+}
+
+.steps h4{
+  text-align: center;
+  font-size: 2rem;
+  font-weight:900;
+  margin-top: 70px;
+}
+.steps p{
+  margin: 0;
+}
+.azul{
+  color: blue;
+}
+.negrito{
+  font-weight: bold;
+}
+.opacidade{
+  opacity: 0.8;
+}
+
+footer{
+  margin-top: 80px;
+  background-color: #7825E6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+
+footer h4{
+  font-size: 2rem;
+  font-weight: 900;
+  color: white;
+}
+footer p{
+  color: white;
+  margin-bottom: 50px;
+}
+footer button{
+  width: 40%;
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+  color: #7825E6;
+}
+
+@media (min-width: 320px) and (max-width: 767.98px){
+  .steps img{
+    width: 200px;
+  }
+  .steps .col-md-4{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .steps .col-md-4 p{
+    display: flex;
+    padding: 10px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 374px){
+  .main h1{
+    font-size: 4rem;
+  }
+}
